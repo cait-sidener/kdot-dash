@@ -1,0 +1,101 @@
+.alert-1 {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.alert-message {
+   color: #5F5F5F;
+   margin: 64px 80px 0 0;
+}
+
+.alert-message-2 {
+    color: #5F5F5F;
+    margin-top: 63px;
+    text-align: center;
+}
+
+#alerts {
+    color: #FF4E52;
+     font-size: 40px;
+    margin: -25px 16px 0 0;
+    text-align: right;
+}
+
+#avg-speed {
+    color: #E1A447;
+    font-size: 40px;
+    margin: -25px 16px 0 0;
+    text-align: right;
+    
+}
+
+#avg-uptime {
+    color: #8E65FF;
+    font-size: 40px;
+    margin: -25px 16px 0 0;
+    text-align: right;
+}
+
+.card {
+    display: flex;
+    width: 300px;
+    margin: 50px 0 0 300px;
+}
+
+.description {
+    color: #8F8E91;
+    margin: 18px 0 0 16px;
+}
+
+.green-chart {
+    color: #4FC7A4;
+    margin: -15px 0px 0px 16px;
+}
+
+.image {
+    margin: -24px 0 0 16px;
+}
+
+.kpis {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(4, 300px);
+}
+
+.purple-chart {
+    color: #8E65FF;
+    margin: -15px 0px 0px 16px;
+}
+
+.red-chart {
+   color: #FF4E52;
+   margin: -15px 0px 0px 16px;
+}
+
+#top-connections {
+    color: #4FC7A4;
+    font-size: 40px;
+    margin: -25px 16px 0 0;
+    text-align: right;
+}
+
+.usage {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(2, 650px);
+}
+
+.usage-card {
+    width: 650px;
+    margin: 50px 0 0 300px;
+}
+
+.warning {
+    margin: 49px 0 0 79px;
+}
+
+.yellow-chart {
+    color: #E1A447;
+    margin: -15px 0px 0px 16px;
+}

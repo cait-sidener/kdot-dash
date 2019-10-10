@@ -1,0 +1,28 @@
+<div class='navigation'>
+  <p class='title mb-4 mt-12'>Eng</p>
+  <div class='p-4 line-blue'>
+    <img src='../../../assets/images/outline-dashboard-24px.svg'>
+    <a class='pl-4' routerLink=''>Dashboard</a>
+  </div>
+  <div class='p-4 line-purple'>
+    <img src='../../../assets/images/outline-apps-24px.svg'>
+    <a class='pl-4' routerLink='applications'>Applications</a>
+  </div>
+
+  <div class='p-4 line-green'>
+    <img src='../../../assets/images/outline-subtitles-24px.svg'>
+    <a class='pl-4' routerLink='status'>Status</a>
+  </div>
+
+  <div class='p-4 line-red'>
+    <img src='../../../assets/images/outline-insert_chart-24px.svg'>
+    <a class='pl-4' routerLink='resource'>Resource</a>
+  </div>
+
+  <div class='p-4 line-yellow'>
+    <img src='../../../assets/images/outline-contact_support-24px.svg'>
+    <a class='support cursor-pointer pl-4' (click)='openDialog()'>Support</a>
+  </div>
+
+</div>
+<router-outlet></router-outlet>

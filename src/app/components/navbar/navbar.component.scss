@@ -1,0 +1,132 @@
+@keyframes blue {
+    0%   {border-left: 0.5px solid #e6f4fa;}
+    25%  {border-left: 1px solid #9dd4ee;}
+    50%  {border-left: 1.5px solid #54b4e1;}
+    100% {border-left: 2px solid #0B95D5;}
+}
+
+@keyframes green {
+    0%   {border-left: 0.5px solid #caeee3;}
+    25%  {border-left: 1px solid #95ddc8;}
+    50%  {border-left: 1.5px solid #72d2b6;}
+    100% {border-left: 2px solid #4FC7A4;}
+}
+
+@keyframes purple {
+    0%   {border-left: 0.5px solid #d1c1ff;}
+    25%  {border-left: 1px solid #bba2ff;}
+    50%  {border-left: 1.5px solid #a483ff;}
+    100% {border-left: 2px solid #8E65FF;}
+}
+
+@keyframes red {
+    0%   {border-left: 0.5px solid #ffdbdc;}
+    25%  {border-left: 1px solid #ff9497;}
+    50%  {border-left: 1.5px solid #ff7174;}
+    100% {border-left: 2px solid #FF4E52;}
+}
+
+@keyframes yellow {
+    0%   {border-left: 0.5px solid #f9ecda;}
+    25%  {border-left: 1px solid #edc890;}
+    50%  {border-left: 1.5px solid #e7b66b;}
+    100% {border-left: 2px solid #E1A447;}
+}
+
+a {
+    color: #8F8E91;
+    text-decoration: none;
+}
+
+.a:nth-child(2):hover ~ .line {
+    transform: translate(0, 120px);
+}
+
+.a:nth-child(3):hover ~ .line {
+    transform: translate(0, 250px);
+}
+
+.p-4 {
+    align-items: flex-start;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 33px;
+}
+
+.line-blue {
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.line-blue:hover {
+
+    animation-name: blue;
+    animation-duration: 0.25s;
+    border-left: 2px solid #0B95D5;
+}
+
+.line-green {
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.line-green:hover {
+
+    animation-name: green;
+    animation-duration: 0.25s;
+    border-left: 2px solid #4FC7A4;
+}
+
+.line-purple {
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.line-purple:hover {
+
+    animation-name: purple;
+    animation-duration: 0.25s;
+    border-left: 2px solid #8E65FF;
+}
+
+.line-red {
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.line-red:hover {
+
+    animation-name: red;
+    animation-duration: 0.25s;
+    border-left: 2px solid #FF4E52;
+}
+
+.line-yellow {
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.line-yellow:hover {
+
+    animation-name: yellow;
+    animation-duration: 0.25s;
+    border-left: 2px solid #E1A447;
+}
+
+.navigation {
+    background-color: #fff;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    overflow: hidden;
+    position: fixed;
+    width: 250px;
+}
+
+.support {
+    color: #8F8E91 !important;
+}
+
+.title {
+    color: #1F1F1F;
+    font-size: 32px;
+    font-weight: regular;
+    text-align: center;
+}
+  

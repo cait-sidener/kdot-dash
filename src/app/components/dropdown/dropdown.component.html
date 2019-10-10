@@ -1,0 +1,8 @@
+<mat-form-field class='mr-3'>
+  <mat-label>Application</mat-label>
+  <mat-select [(value)]='selectedValue'>
+    <mat-option class='option' *ngFor="let application of applications" [value]="application.value">
+      {{application.viewValue}}
+    </mat-option>
+  </mat-select>
+</mat-form-field>

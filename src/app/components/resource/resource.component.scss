@@ -1,0 +1,128 @@
+@keyframes blue {
+    0%   {border-left: 0.5px solid #e6f4fa;}
+    25%  {border-left: 1px solid #9dd4ee;}
+    50%  {border-left: 1.5px solid #54b4e1;}
+    100% {border-left: 2px solid #0B95D5;}
+}
+
+@keyframes green {
+    0%   {border-left: 0.5px solid #caeee3;}
+    25%  {border-left: 1px solid #95ddc8;}
+    50%  {border-left: 1.5px solid #72d2b6;}
+    100% {border-left: 2px solid #4FC7A4;}
+}
+
+@keyframes purple {
+    0%   {border-left: 0.5px solid #d1c1ff;}
+    25%  {border-left: 1px solid #bba2ff;}
+    50%  {border-left: 1.5px solid #a483ff;}
+    100% {border-left: 2px solid #8E65FF;}
+}
+
+@keyframes red {
+    0%   {border-left: 0.5px solid #ffdbdc;}
+    25%  {border-left: 1px solid #ff9497;}
+    50%  {border-left: 1.5px solid #ff7174;}
+    100% {border-left: 2px solid #FF4E52;}
+}
+
+@keyframes yellow {
+    0%   {border-left: 0.5px solid #f9ecda;}
+    25%  {border-left: 1px solid #edc890;}
+    50%  {border-left: 1.5px solid #e7b66b;}
+    100% {border-left: 2px solid #E1A447;}
+}
+
+a {
+    color: #807f82;
+    text-decoration: none;
+}
+
+.accordion {
+    align-items: center;
+    color: #8F8E91;
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    width: 70%;
+}
+
+.accordion:hover {
+    animation-duration: 0.25s;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    font-size: 1.4em;
+}
+
+.accordion-blue:hover {
+    animation-name: blue;
+    border-left: 8px solid #0B95D5;
+    color: #0B95D5;
+  }
+
+
+.accordion-green:hover {
+    animation-name: green;
+    border-left: 8px solid #4FC7A4;
+    color: #4FC7A4;
+  }
+
+
+.accordion-purple:hover {
+    animation-name: purple;
+    border-left: 8px solid #8E65FF;
+    color: #8E65FF;
+  }
+
+.accordion-red:hover {
+    animation-name: red;
+    border-left: 8px solid #FF4E52;
+    color: #FF4E52;
+  }
+
+.accordion-yellow:hover {
+    animation-name: yellow;
+    border-left: 8px solid #E1A447;
+    color: #E1A447;
+  }
+
+.card {
+    display: flex;
+    height: 80%;
+    margin: 5% 0 0 10%;
+    padding: 20px 20px 0 30px;;
+    width: 80%;
+}
+
+.panel {
+    color: #8F8E91;
+    height: 630px;
+    margin-left: 400px;
+}
+
+.panel-blue {
+    background-color: #e6f4fa;
+}
+
+.panel-green {
+    background-color: #edf9f5;
+}
+
+.panel-purple {
+    background-color: #f3efff;
+}
+
+.panel-red {
+    background-color: #ffeded;
+}
+
+.panel-yellow {
+    background-color: #fcf5ec;
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto;
+}

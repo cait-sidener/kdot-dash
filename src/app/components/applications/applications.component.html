@@ -1,0 +1,167 @@
+<div class='applications'>
+  <div class='card card-1 border-none mt-12 h-40 w-40 shadow-md'>
+    <a target='_blank' href='http://prodnet/BIFPROJECTS/'>
+      <mat-icon class='dash blue-dash mt-3'>dashboard</mat-icon>
+    </a>
+    <div class='app-link'>
+      <a class='mt-3' target='_blank' href='http://prodnet/BIFPROJECTS/'>BIF</a>
+      <mat-icon class='actions cursor-pointer mt-3' [matMenuTriggerFor]='matMenu'>more_vert</mat-icon>
+      <mat-menu #matMenu='matMenu'>
+        <a href='#' mat-menu-item>dev</a>
+        <a href='#' mat-menu-item>test</a>
+      </mat-menu>
+    </div>
+  </div>
+  <div class='card card-2 border-none mt-12 h-40 w-40 shadow-md'>
+    <a target='_blank' href='http://prodnet/webBROMS/default.aspx'>
+      <mat-icon class='dash purple-dash mt-3'>dashboard</mat-icon>
+    </a>
+    <div class='app-link'>
+      <a class='mt-3' target='_blank' href='http://prodnet/webBROMS/default.aspx'>BROMS</a>
+      <mat-icon class='actions cursor-pointer mt-3' [matMenuTriggerFor]='belowMenu'>more_vert</mat-icon>
+      <mat-menu #belowMenu='matMenu'>
+        <a target='_blank' href='http://devnet/webBROMSdev/default.aspx' mat-menu-item>dev</a>
+        <a target='_blank' href='http://testnet/webBROMStest/default.aspx' mat-menu-item>test</a>
+      </mat-menu>
+    </div>
+  </div>
+  <div class='card card-3 border-none mt-12 h-40 w-40 shadow-md'>
+    <a target='_blank' href='http://dt00ne52:8080/MapViewer.aspx'>
+      <mat-icon class='dash green-dash mt-3'>dashboard</mat-icon>
+    </a>
+    <div class='app-link'>
+      <a class='mt-3' target='_blank' href='http://dt00ne52:8080/MapViewer.aspx'>CIIMS</a>
+      <mat-icon class='actions cursor-pointer mt-3' [matMenuTriggerFor]='menuBelow'>more_vert</mat-icon>
+      <mat-menu #menuBelow='matMenu'>
+        <a target='_blank' href='#' mat-menu-item>dev</a>
+        <a target='_blank' href='http://dt00ne70:8080/MapViewer.aspx' mat-menu-item>test</a>
+      </mat-menu>
+    </div>
+  </div>
+
+  <div class='card card-4 border-none mt-12 h-40 w-40 shadow-md'>
+    <a target='_blank' href='https://devnet.ksdot.org/DrainageStructureCalc'>
+      <mat-icon class='dash red-dash mt-3'>dashboard</mat-icon>
+    </a>
+    <div class='app-link'>
+      <a class='mt-3' target='_blank' href='https://devnet.ksdot.org/DrainageStructureCalc'>DSC</a>
+      <mat-icon class='actions cursor-pointer mt-3' [matMenuTriggerFor]='menuLow'>more_vert</mat-icon>
+      <mat-menu #menuLow='matMenu'>
+        <a target='_blank' href='https://devnet.ksdot.org/DrainageStructureCalc' mat-menu-item>dev</a>
+        <a target='_blank' href='#' mat-menu-item>test</a>
+      </mat-menu>
+    </div>
+  </div>
+
+  <div class='card card-5 border-none mt-12 h-40 w-40 shadow-md'>
+    <a target='_blank' href='#'>
+      <mat-icon class='dash yellow-dash mt-3'>dashboard</mat-icon>
+    </a>
+    <div class='app-link'>
+      <a class='mt-3' href='#'>Geologger</a>
+      <mat-icon class='actions cursor-pointer mt-3' [matMenuTriggerFor]='menuDevTest'>more_vert</mat-icon>
+      <mat-menu #menuDevTest='matMenu'>
+        <a target='_blank' href='#' mat-menu-item>dev</a>
+        <a target='_blank' href='#' mat-menu-item>test</a>
+      </mat-menu>
+    </div>
+  </div>
+
+  <div class='card card-6 border-none mt-12 h-40 w-40 shadow-md'>
+    <a target='_blank' href='http://prodnet/ITAssets/default.aspx'>
+      <mat-icon class='dash blue-dash mt-3'>dashboard</mat-icon>
+    </a>
+    <div class='app-link'>
+      <a class='mt-3' target='_blank' href='http://prodnet/ITAssets/default.aspx'>IT Assets</a>
+      <mat-icon class='actions cursor-pointer mt-3' [matMenuTriggerFor]='menuTestDev'>more_vert</mat-icon>
+      <mat-menu #menuTestDev='matMenu'>
+        <a target='_blank' href='http://devnet/ITAssets/default.aspx' mat-menu-item>dev</a>
+        <a target='_blank' href='http://testnet/ITAssets/default.aspx' mat-menu-item>test</a>
+      </mat-menu>
+    </div>
+  </div>
+
+  <div class='card card-7 border-none h-40 w-40 shadow-md'>
+    <a target='_blank' href='http://prodnet/bridgeintranet/Qville/default.aspx'>
+      <mat-icon class='dash blue-dash mt-3'>dashboard</mat-icon>
+    </a>
+    <div class='app-link'>
+      <a class='mt-3' target='_blank' href='http://prodnet/bridgeintranet/Qville/default.aspx'>Q Ville</a>
+      <mat-icon class='actions cursor-pointer mt-3' [matMenuTriggerFor]='menuActions'>more_vert</mat-icon>
+      <mat-menu #menuActions='matMenu'>
+        <a target='_blank' href='http://devnet/QVille/' mat-menu-item>dev</a>
+        <a target='_blank' href='http://testnet/bridgeintranet/Qville/' mat-menu-item>test</a>
+      </mat-menu>
+    </div>
+  </div>
+
+  <div class='card card-8 border-none h-40 w-40 shadow-md'>
+    <a target='_blank' href='http://prodnet/RAID/default.aspx'>
+      <mat-icon class='dash purple-dash mt-3'>dashboard</mat-icon>
+    </a>
+    <div class='app-link'>
+      <a class='mt-3' target='_blank' href='http://prodnet/RAID/default.aspx'>RAID</a>
+      <mat-icon class='actions cursor-pointer mt-3' [matMenuTriggerFor]='actionsMenu'>more_vert</mat-icon>
+      <mat-menu #actionsMenu='matMenu'>
+        <a target='_blank' href='http://testnet/RAID/default.aspx' mat-menu-item>test</a>
+        <a target='_blank' href='http://devnet/RAID/default.aspx' mat-menu-item>dev</a>
+      </mat-menu>
+    </div>
+  </div>
+
+  <div class='card card-9 border-none h-40 w-40 shadow-md'>
+    <a target='_blank' href='http://prodnet/RaidMenu/Default.aspx'>
+      <mat-icon class='dash green-dash mt-3'>dashboard</mat-icon>
+    </a>
+    <div class='app-link'>
+      <a class='mt-3' target='_blank' href='http://prodnet/RaidMenu/Default.aspx'>RAID Menu</a>
+      <mat-icon class='actions cursor-pointer mt-3' [matMenuTriggerFor]='menuRaidMenu'>more_vert</mat-icon>
+      <mat-menu #menuRaidMenu='matMenu'>
+        <a target='_blank' href='http://testnet/RaidMenu/Default.aspx' mat-menu-item>test</a>
+        <a href='http://devnet/RaidMenu/Default.aspx' mat-menu-item>dev</a>
+      </mat-menu>
+    </div>
+  </div>
+
+  <div class='card card-10 border-none h-40 w-40 shadow-md'>
+    <a target='_blank' href='http://roas.kdot.org/BentleyOAS/StartPage.aspx'>
+      <mat-icon class='dash red-dash mt-3'>dashboard</mat-icon>
+    </a>
+    <div class='app-link'>
+      <a class='mt-3' target='_blank' href='http://roas.ksdot.org/BentleyOAS/StartPage.aspx'>ROAS</a>
+      <mat-icon class='actions cursor-pointer mt-3' [matMenuTriggerFor]='menuRoas'>more_vert</mat-icon>
+      <mat-menu #menuRoas='matMenu'>
+        <a target='_blank' href='#' mat-menu-item>test</a>
+        <a href='http://dt00mv44:9022/BentleyOASShannon/StartPage.aspx' mat-menu-item>dev</a>
+      </mat-menu>
+    </div>
+  </div>
+
+  <div class='card card-11 border-none h-40 w-40 shadow-md'>
+    <a target='_blank' href='http://prodnet.ROASMenu/Default.aspx'>
+      <mat-icon class='dash yellow-dash mt-3'>dashboard</mat-icon>
+    </a>
+    <div class='app-link'>
+      <a class='mt-3' target='_blank' href='http://prodnet/ROASMenu/Default.aspx'>ROAS Menu</a>
+      <mat-icon class='actions cursor-pointer mt-3' [matMenuTriggerFor]='menuRoasMenu'>more_vert</mat-icon>
+      <mat-menu #menuRoasMenu='matMenu'>
+        <a target='_blank' href='http://testnet/ROASMenu/' mat-menu-item>test</a>
+        <a href='http://devnet/ROASMenu/Default.aspx' mat-menu-item>dev</a>
+      </mat-menu>
+    </div>
+  </div>
+
+  <div class='card card-12 border-none h-40 w-40 shadow-md'>
+    <a target='_blank' href='http://prodnet/webSalvage/'>
+      <mat-icon class='dash blue-dash mt-3'>dashboard</mat-icon>
+    </a>
+    <div class='app-link'>
+      <a class='mt-3' target='_blank' href='http://prodnet/webSalvage/'>WebSalvage</a>
+      <mat-icon class='actions cursor-pointer mt-3' [matMenuTriggerFor]='menu'>more_vert</mat-icon>
+      <mat-menu #menu='matMenu'>
+        <a target='_blank' href='http://testnet/webSalvage/' mat-menu-item>test</a>
+        <a href='http://devnet/webSalvage/' mat-menu-item>dev</a>
+      </mat-menu>
+    </div>
+  </div>
+</div>

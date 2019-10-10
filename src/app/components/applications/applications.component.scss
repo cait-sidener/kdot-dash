@@ -1,0 +1,46 @@
+a {
+    color: #8F8E91;
+    text-decoration: none;
+}
+
+.app-link {
+    align-items: center;
+    color: #8F8E91;
+    display: flex;
+    justify-content: center;
+}
+
+.applications {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(6, 150px);
+}
+
+.blue-dash {
+    color: #0B95D5;
+}
+
+.card {
+    margin-left: 300px;
+}
+
+.dash {
+    font-size: 72px;
+    margin-left: 25%;
+}
+
+.green-dash {
+    color: #4FC7A4;
+}
+
+.purple-dash {
+    color: #8E65FF;
+}
+
+.red-dash {
+    color: #FF4E52;
+}
+
+.yellow-dash {
+    color: #E1A447;
+}

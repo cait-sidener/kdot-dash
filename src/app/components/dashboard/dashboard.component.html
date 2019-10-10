@@ -1,0 +1,39 @@
+<div class='kpis'>
+  <div class='card border-none h-24 shadow-md'>
+    <p class='description'>Avg Uptimes</p>
+    <p id='avg-uptime'>47 hr</p>
+    <mat-icon class='purple-chart'>bar_chart</mat-icon>
+  </div>
+  <div class='card border-none h-24 shadow-md'>
+    <p class='description'>Top Connections</p>
+    <p id='top-connections'>96</p>
+    <mat-icon class='green-chart'>bar_chart</mat-icon>
+  </div>
+  <div class='card border-none h-24 shadow-md'>
+    <p class='description'>Avg Speed</p>
+    <p id='avg-speed'>3 ms</p>
+    <mat-icon class='yellow-chart'>bar_chart</mat-icon>
+  </div>
+  <div class='card border-none h-24 shadow-md'>
+    <p class='description'>Alerts in 24 hr</p>
+    <p id='alerts'>89</p>
+    <mat-icon class='red-chart'>bar_chart</mat-icon>
+  </div>
+</div>
+<div class='usage'>
+  <div class='card border-none h-40 shadow-md usage-card'>
+    <div class='alert-1'>
+      <img class='warning' src='../../../assets/images/outline-warning-24px.svg'>
+      <p class='alert-message text-xl'>Alert messages (API didn't work ext.)</p>
+    </div>
+  </div>
+
+  <div class='card border-none h-40 shadow-md usage-card'>
+    <div class='alert-2'>
+      <p class='alert-message-2 text-xl'>Chart of usage</p>
+    </div>
+  </div>
+</div>
+
+<app-app-status></app-app-status>
+<app-app-connections></app-app-connections>
