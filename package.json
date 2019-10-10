@@ -23,7 +23,9 @@
     "@angular/router": "~8.2.8",
     "@ng-bootstrap/ng-bootstrap": "^5.1.1",
     "hammerjs": "^2.0.8",
+    "https-proxy": "0.0.2",
     "material-design-icons": "^3.0.1",
+    "proxy": "^1.0.1",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
